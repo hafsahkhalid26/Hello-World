@@ -26,7 +26,7 @@
 
         -----------------
         nav button, .choice-button {
-            background-color: #6726a3ff;
+            background-color: #99355eff;
             color: white;
             font-size: 18px;
             padding: 10px 20px;
@@ -37,7 +37,7 @@
         }
 
         nav button:hover, .choice-button:hover {
-            background-color: #8f39e0ff; /* darker pink on hover */
+            background-color: #d56191ff; /* darker pink on hover */
         }
 
         h1 {
@@ -93,7 +93,7 @@
 
     <!-- Display image/message depending on choice -->
     {% if choice == "yes" %}
-        <p>LOL...just kidding!</p>
+        <p>Haha...Just kidding!</p>
         <img src="{{ url_for('static', filename='yes.gif') }}" alt="Yes image">
     {% elif choice == "no" %}
         <p>Wow...you're so mean</p>
